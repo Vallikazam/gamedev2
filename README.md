@@ -20,7 +20,10 @@ This is a 2D drag-and-drop puzzle game developed in Unity. The objective is to m
 - **Tiger1.cs**, **Panda.cs**, **Tiger2.cs**, **Turkey.cs**: Handle drag-and-drop mechanics for each animal. Detect touch/mouse input, move the animal, and snap it to a target position (`*_place`) if within 0.5 units, setting `locked` to true.
 
 ## Setup
-1. Clone the repository: ```git clone https://github.com/your-username/animal-puzzle-game.git```
-3. Open the project in Unity.
-4. Ensure the scene is added to Build Settings (`File > Build Settings > Add Open Scenes`).
-5. Play the scene in the Unity Editor or build the project for your platform.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/animal-puzzle-game.git
+   ```
+2. Open the project in Unity.
+3. Ensure the scene is added to Build Settings (`File > Build Settings > Add Open Scenes`).
+4. Play the scene in the Unity Editor or build the project for your platform.
