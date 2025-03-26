@@ -1,5 +1,11 @@
-# Animal Puzzle Game
+# Puzzle 
 
+## Project Details
+- **Student**: Alinur Zhumadil
+- **Group**: SE-2321
+- **Subject**: Introduction to Game Development
+- **Assignment**: Assignment 2
+  
 ## Overview
 This is a 2D drag-and-drop puzzle game developed in Unity. The objective is to match animals (deer, panda, tiger, turkey) to their corresponding silhouettes. When all animals are correctly placed, a win screen appears with a darkened overlay, a victory message, and a restart button to play again.
 
@@ -13,14 +19,8 @@ This is a 2D drag-and-drop puzzle game developed in Unity. The objective is to m
 - **GameControl.cs**: Manages game logic, including win condition detection, UI (win text, dark overlay, restart button), and scene restart. Uses coroutines for smooth transitions.
 - **Tiger1.cs**, **Panda.cs**, **Tiger2.cs**, **Turkey.cs**: Handle drag-and-drop mechanics for each animal. Detect touch/mouse input, move the animal, and snap it to a target position (`*_place`) if within 0.5 units, setting `locked` to true.
 
-## Project Details
-- **Student**: Alinur Zhumadil
-- **Group**: SE-2321
-- **Subject**: Introduction to Game Development
-- **Assignment**: Assignment 2
-
 ## Setup
-1. Clone the repository: `git clone https://github.com/your-username/animal-puzzle-game.git`
+1. Clone the repository: ```git clone https://github.com/your-username/animal-puzzle-game.git```
 3. Open the project in Unity.
 4. Ensure the scene is added to Build Settings (`File > Build Settings > Add Open Scenes`).
 5. Play the scene in the Unity Editor or build the project for your platform.
